@@ -3,7 +3,7 @@ import { NavController, ToastController, AlertController } from '@ionic/angular'
 import { Subscription, interval, concat } from 'rxjs';
 import { Network } from '@ngx-pwa/offline';
 import { first } from 'rxjs/operators';
-import { SwUpdate, UpdateActivatedEvent, UpdateAvailableEvent } from '@angular/service-worker';
+import { SwUpdate, UpdateAvailableEvent } from '@angular/service-worker';
 
 import { EventsService } from './../events.service';
 import { EventResponse } from './../interfaces';
